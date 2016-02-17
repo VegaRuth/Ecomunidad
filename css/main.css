@@ -1,1 +1,129 @@
-/* Inserta tu codigo aqui */
+/* General */
+p{
+	color: #7F7E7B;
+	margin-bottom: 2%;
+}
+a{
+	text-decoration: none;
+}
+
+/*HEADER*/
+header{
+	background-image: url("../img/semilla.jpg");
+	background-repeat: no-repeat;	
+	background-size: 100%;
+}
+/*INTRO-SECTION */
+#intro{
+	background-image: url("../img/fondo2.jpg");
+	padding: 5%;
+	margin-bottom: 5%;
+}
+
+/*MENU*/
+a> li{
+	display: inline-block;
+	text-decoration: none;
+	color: #7F7E7B;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-top: 5%;
+}
+.logo{
+	width: 70%;
+	height: 70%;
+}
+
+/*SECTION*/
+section{
+	background-color: white;
+}
+.icon{
+	width: 80%;
+	height: 80%;
+	margin:4%; 
+}
+/*NOSOTROS*/
+.Nosotros> img{
+	padding-top: 5%;
+}
+.img-nosotros{
+	margin-top: 5%;
+	width: 80%;
+	height: 80%;
+}
+/*Metodologia*/
+#Met1{
+	background-image: url("../img/metodo.jpg");
+	margin-top: 5%;
+	background-size: 100%;
+	background-repeat:no-repeat;
+	margin-bottom: 5%;
+}
+#Met2{
+	background-image: url("../img/fondo.jpg");
+	padding: 5%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.Met{
+	color: white;
+	margin: 4%;
+}
+.Met img{
+	margin-bottom:80%; 
+}
+h3{
+	color:black;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+.p-section{
+	color:#9E9C97 ;
+	padding-left: -2%;
+}
+/*PROYECTOS*/
+#Proyectos{
+	background-color: #5E8B16;
+	padding-bottom:5%; 
+}
+.img-proy{
+	width: 80%;
+	height: 70%;
+}
+/*EQUIPO*/
+.Redes{
+	width: 10%;
+	height: 10%;
+	display: inline-block;
+	margin: 2%; 
+}
+.Equipo{
+	border-radius: 100%;
+	width: 60%;
+	height: 60%;
+}
+/*BLOG*/
+#Blog{
+	background-image: url("../img/fondo2.jpg");
+	padding: 5%;
+}
+.Blog{
+	padding: 2%;
+}
+.Blog img{
+	width: 90%;
+	height: 90%;
+}
+.slider{
+	
+}
+/*FOOTER*/
+footer{
+	background-color: #282828;
+}
+.p-footer{
+	color: white;
+	margin: 2% 0% 3% 6%;
+	font-size: 11px;
+}
