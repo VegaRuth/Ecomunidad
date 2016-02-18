@@ -6,12 +6,16 @@ p{
 a{
 	text-decoration: none;
 }
-
+*{font-family: Helvetica;
+}
 /*HEADER*/
 header{
 	background-image: url("../img/semilla.jpg");
 	background-repeat: no-repeat;	
 	background-size: 100%;
+	background-position: center;
+	height: 300px;
+
 }
 /*INTRO-SECTION */
 #intro{
@@ -93,37 +97,89 @@ h3{
 }
 /*EQUIPO*/
 .Redes{
-	width: 10%;
-	height: 10%;
+	width: 5%;
+	height: 5%;
 	display: inline-block;
 	margin: 2%; 
 }
 .Equipo{
 	border-radius: 100%;
-	width: 60%;
-	height: 60%;
+	width: 40%;
+	height: 40%;
 }
 /*BLOG*/
 #Blog{
 	background-image: url("../img/fondo2.jpg");
 	padding: 5%;
+	margin-top:5%; 
 }
 .Blog{
 	padding: 2%;
+	margin: -2%;
 }
 .Blog img{
-	width: 90%;
-	height: 90%;
+	width: 100%;
+	height: 100%;
+	position: relative;
+
 }
-.slider{
-	
+#left{
+	top: 50%;
+	float: left;
+	margin-left: -2%;
+	margin-right: 2%;
+	margin-top: 10%;
+}
+#right{
+	top: 50%;
+	float: right;
+	margin-right: 5%;
+	margin-top: 10%;
+}
+/*SIGUENOS*/
+.redes{
+	width: 30%;
+	height: 30%;
+	margin-left: 60%;
+	margin-top:50%; 
+}
+#Siguenos{
+	background-color: #4F504D;
+	padding: 5%;
+}
+.RS{
+	display: inline-block;
+	border: solid 1px #DDE0D8; 
+	width:25%;
+	height: 40%;
+	margin-left: -4px;
+	padding: 2%;
+}
+.RS>p{
+	color: white;
+	border: none; 
+	float: left;
+}
+.min{
+	width: 25%;
+	height: 5%;
+	margin-top: 52%;
 }
 /*FOOTER*/
 footer{
-	background-color: #282828;
+	background-color: #DDE0D8;
+	padding: 5%;
 }
-.p-footer{
-	color: white;
-	margin: 2% 0% 3% 6%;
-	font-size: 11px;
+.phone{
+	color:#B6B8B2; 
 }
+.labo{
+	color:#DE9312;
+}
+.right{
+	text-align: right;
+}
+.ecom{
+	color: black;
+}
+
