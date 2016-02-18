@@ -2,6 +2,7 @@
 p{
 	color: #7F7E7B;
 	margin-bottom: 2%;
+	margin-top: 2%;
 }
 a{
 	text-decoration: none;
@@ -42,19 +43,14 @@ a> li{
 section{
 	background-color: white;
 }
-.icon{
-	width: 80%;
-	height: 80%;
-	margin:4%; 
-}
 /*NOSOTROS*/
 .Nosotros> img{
 	padding-top: 5%;
 }
-.img-nosotros{
+.icono{
 	margin-top: 5%;
-	width: 80%;
-	height: 80%;
+	width: 60%;
+	height: 60%;
 }
 /*Metodologia*/
 #Met1{
@@ -62,6 +58,8 @@ section{
 	margin-top: 5%;
 	background-size: 100%;
 	background-repeat:no-repeat;
+	background-position: center;
+	height: 306px;
 	margin-bottom: 5%;
 }
 #Met2{
@@ -86,9 +84,22 @@ h3{
 	color:#9E9C97 ;
 	padding-left: -2%;
 }
+/*SERTVICIOS*/
+.Serv{
+	color: #60974B;
+	margin:2%;
+}
+
 /*PROYECTOS*/
+.proyect{
+	color:white;
+	margin-top: 2px; 
+}
+.proyect p{
+	font-size: 5px; 
+}
 #Proyectos{
-	background-color: #5E8B16;
+	background-color: #60974B;
 	padding-bottom:5%; 
 }
 .img-proy{
@@ -121,7 +132,9 @@ h3{
 	width: 100%;
 	height: 100%;
 	position: relative;
-
+}
+.Gray{
+	color:#4F504D; 
 }
 #left{
 	top: 50%;
@@ -152,7 +165,7 @@ h3{
 	border: solid 1px #DDE0D8; 
 	width:25%;
 	height: 40%;
-	margin-left: -4px;
+	margin-left: -.5%;
 	padding: 2%;
 }
 .RS>p{
